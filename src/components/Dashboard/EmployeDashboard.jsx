@@ -1,5 +1,7 @@
 import Headers from "../Others/Headers"
 import TaskListNumber from "../Others/taskListNumber"
+import {TaskList} from "../TaskList/TaskLists"
+
 
 const EmployeDashboard = () => {
   return (
@@ -7,6 +9,8 @@ const EmployeDashboard = () => {
 
       <Headers/>
       <TaskListNumber/>
+      <TaskList/>
+      
    </>
   )
 }

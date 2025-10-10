@@ -1,13 +1,17 @@
 
-/*import Login from './components/Auth/login'*/
-import EmployeDashboard from './components/Dashboard/EmployeDashboard'
+/*import Login from './components/Auth/login'
+import EmployeDashboard from './components/Dashboard/EmployeDashboard'*/
+import AdminDashboard from './components/Dashboard/AdminDashboard'
 import "./App.css"
+
 
 const App = () => {
   return (
     <>
-    {/*<Login/>*/}
-    <EmployeDashboard/>
+    {/*<Login/>
+    <EmployeDashboard/>*/}
+    <AdminDashboard/>
+    
      
     </>
   )

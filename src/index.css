@@ -3,3 +3,8 @@
   margin: auto;
   padding: auto;
 }
+
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
